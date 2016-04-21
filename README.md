@@ -16,14 +16,18 @@ Requirements
 - Powerful NVidia GPU is recommended, but should also work with any CUDA enabled card
 
 If you're using a Debian-like distro:
+
 ``$ sudo apt-get install python-pycuda python-numpy python-scipy python-pygame nvidia-cuda-toolkit python-setuptools``
+
 ``$ sudo easy_install scikit-image``
 
 Usage
 =====
 
 ``$ python evolife.py [experiment_name]``
+
 or just
+
 ``$ ./evolife.py [experiment_name]``
 
 If no preset given, default 'big bang' is used.
@@ -31,12 +35,12 @@ If no preset given, default 'big bang' is used.
 Controls
 --------
 
-*Arrows*: move field around
-*+*/*-*: zoom field in/out
-*]*/*[*: increase/decrease frame skip
-*F*: toggle fullscreen
-*S*: save a field dump to `fields/field.npy` file
-*Q*/*ESC*: quit
+- **Arrows**:	move field around
+- **+**/**-**:	zoom field in/out
+- **]**/**[**:	increase/decrease frame skip
+- **F**:	toggle fullscreen
+- **S**:	save a field dump to `fields/field.npy` file
+- **Q**/**ESC**:	quit
 
 Every 100 steps, top 10 species will be printed to a console. SN is a total number of species currently on the board.
 
