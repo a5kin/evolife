@@ -8,18 +8,17 @@ Requirements
 ============
 
 - Python 2.7
-- NumPy/SciPy
+- NumPy / SciPy
 - PyCUDA
 - PyGame
 - scikit-image
 - NVidia CUDA Toolkit
-- Powerful NVidia GPU is recommended, but should also work with any CUDA enabled card
+- Powerful NVidia GPU is recommended, but should work with any CUDA enabled card
 
 If you're using a Debian-like distro:
 
 ``$ sudo apt-get install python-pycuda python-numpy python-scipy python-pygame nvidia-cuda-toolkit python-setuptools``
-
-``$ sudo easy_install scikit-image``
+$ sudo easy_install scikit-image``
 
 Usage
 =====
@@ -36,11 +35,11 @@ Controls
 --------
 
 - **Arrows**:	move field around
-- **+**/**-**:	zoom field in/out
-- **]**/**[**:	increase/decrease frame skip
+- **+** / **-**:	zoom field in/out
+- **]** / **[**:	increase/decrease frame skip
 - **F**:	toggle fullscreen
 - **S**:	save a field dump to `fields/field.npy` file
-- **Q**/**ESC**:	quit
+- **Q** / **ESC**:	quit
 
 Every 100 steps, top 10 species will be printed to a console. SN is a total number of species currently on the board.
 
@@ -66,7 +65,7 @@ Automaton Rules
 Experiments
 ===========
 
-You may see a list of experimental presets in `experiments` folder. To run a particular experiment, provide an experiment's filename without .py extension. For example to run an experiment described in ``experiments/bliamba.py``, you have to run the following command:
+You may see a list of experimental presets in `experiments` folder. To run a particular experiment, provide an experiment's filename without `.py` extension. For example to run an experiment described in ``experiments/bliamba.py``, you have to run the following command:
 ``$ ./evolife.py bliamba``
 
 Most of the provided experiments are set without fixed random seed. Run each of them several times, they could show different behaviours. 
