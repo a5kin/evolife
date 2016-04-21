@@ -17,8 +17,8 @@ Requirements
 
 If you're using a Debian-like distro:
 
-``$ sudo apt-get install python-pycuda python-numpy python-scipy python-pygame nvidia-cuda-toolkit python-setuptools
-$ sudo easy_install scikit-image``
+``$ sudo apt-get install python-pycuda python-numpy python-scipy python-pygame nvidia-cuda-toolkit python-setuptools``
+``$ sudo easy_install scikit-image``
 
 Usage
 =====
